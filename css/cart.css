@@ -1,0 +1,23 @@
+.paying-content {
+    display: flex;
+    justify-content: end;
+}
+
+.paying-item {
+    font-size: 22 px;
+    padding-right: 8rem;
+}
+
+.paying-num{
+    width: 200px;
+    text-align: right;
+}
+
+.Paying {
+    width: 10rem;
+    font-size: 30px;
+}
+.Paying:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
