@@ -158,7 +158,7 @@ const addToCart = (event, key) => {
     console.log(quantity_value)
     if (item){
 
-        if(quantity_value !== 0){    
+        if(quantity_value != 0){    
             let cart = localStorage.getItem("cart")
             if (cart == null) {
                 cart = [
